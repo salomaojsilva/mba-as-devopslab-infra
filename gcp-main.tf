@@ -1,10 +1,10 @@
-resource "google_project" "devopslab-SJS" {
-  name       = "devopslab-SJS"
-  project_id = "devopslab-SJS"
+resource "google_project" "devopslab-Salomao" {
+  name       = "devopslab-Salomao"
+  project_id = "devopslab-sjs"
   org_id     = "1234567"
 }
 
 resource "google_app_engine_application" "app" {
-  project     = "devopslab-SJS"
+  project     = "devopslab-sjs"
   location_id = "us-central"
 }
